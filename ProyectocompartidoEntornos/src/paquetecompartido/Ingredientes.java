@@ -29,6 +29,7 @@ public class Ingredientes {
 	@Override
 	public String toString() {
 		return "Ingredientes [nombreIngrediente=" + nombreIngrediente + ", caloria=" + caloria + "]";
+		System.out.println("Probando Cambios");
 	}
 	
 }
