@@ -16,6 +16,7 @@ public class Pizza {
 		ingredientes = new Ingredientes[MAX_INGREDIENTE];
 		contIng = 0;
 		
+		
 	}
 	public boolean addIngrediente(Ingredientes ingredientes) {
 		boolean correcto = false;
@@ -63,6 +64,7 @@ public class Pizza {
 	@Override
 	public String toString() {
 		return "Pizza [ingredientes=" + Arrays.toString(ingredientes) + ", size=" + size + "]";
+		
 	}
 	
 	
