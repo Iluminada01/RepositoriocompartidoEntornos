@@ -3,7 +3,7 @@ package paquetecompartido;
 
 import java.util.Arrays;
 
-public class Pizzita {
+public class Pizzitas {
 
 	private final int MAX_INGREDIENTE = 3;	
 	private Ingredientes ingredientes[];
